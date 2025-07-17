@@ -1,9 +1,9 @@
 name: async-http
-version: 0.1.0
+version: 0.1.1
 
 authors:
   - Bartłomiej Skoczeń <bartek_skoczen@protonmail.com>
 
-crystal: 1.7.1
+crystal: 1.14.0
 
 license: MIT
