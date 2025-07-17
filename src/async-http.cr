@@ -116,7 +116,7 @@ module AsyncHttp
         !(@closing = true)
       end
       loop do
-        sleep @clean_after
+        sleep @clean_after.seconds
         @mutex.lock
         dirty = false
         while @connections.size > @keep
