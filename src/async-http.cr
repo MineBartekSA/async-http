@@ -1,9 +1,9 @@
-require "http"
+require "http/client"
 
 module AsyncHttp
   VERSION = "0.1.0"
 
-  class HTTP::Client
+  class ::HTTP::Client
     @mutex = Mutex.new
 
     def_around_exec do |request|
